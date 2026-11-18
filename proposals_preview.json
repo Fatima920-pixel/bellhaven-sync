@@ -1,0 +1,1399 @@
+[
+  {
+    "key": "c21822dbef88ed3a",
+    "type": "UPDATE",
+    "category": "match_needs_fix",
+    "confidence": "high",
+    "site_slug": "bellhaven-rehabilitation-nursing-of-grove-city",
+    "site_name": "Bellhaven Rehabilitation & Nursing of Grove City",
+    "target_account_id": "001TZCSTBZFM6K5BGN",
+    "target_name": "Bellhaven Rehab and Nursing of Grove City",
+    "evidence": [
+      "Matched website 'Bellhaven Rehabilitation & Nursing of Grove City' by same address",
+      "Website name 'Bellhaven Rehabilitation & Nursing of Grove City' differs from CRM name 'Bellhaven Rehab and Nursing of Grove City'"
+    ],
+    "ops": [
+      {
+        "op": "update",
+        "account_id": "001TZCSTBZFM6K5BGN",
+        "body": {
+          "name": "Bellhaven Rehabilitation & Nursing of Grove City"
+        }
+      }
+    ],
+    "diff": [
+      {
+        "account_id": "001TZCSTBZFM6K5BGN",
+        "field": "name",
+        "from": "Bellhaven Rehab and Nursing of Grove City",
+        "to": "Bellhaven Rehabilitation & Nursing of Grove City"
+      }
+    ]
+  },
+  {
+    "key": "2f5e7435a15dfef0",
+    "type": "UPDATE",
+    "category": "match_needs_fix",
+    "confidence": "high",
+    "site_slug": "bellhaven-at-sycamore-ridge",
+    "site_name": "Bellhaven at Sycamore Ridge",
+    "target_account_id": "00191H7JR16471SZ34",
+    "target_name": "Bellhaven of Sycamore Ridge",
+    "evidence": [
+      "Matched website 'Bellhaven at Sycamore Ridge' by same address",
+      "Website name 'Bellhaven at Sycamore Ridge' differs from CRM name 'Bellhaven of Sycamore Ridge'"
+    ],
+    "ops": [
+      {
+        "op": "update",
+        "account_id": "00191H7JR16471SZ34",
+        "body": {
+          "name": "Bellhaven at Sycamore Ridge"
+        }
+      }
+    ],
+    "diff": [
+      {
+        "account_id": "00191H7JR16471SZ34",
+        "field": "name",
+        "from": "Bellhaven of Sycamore Ridge",
+        "to": "Bellhaven at Sycamore Ridge"
+      }
+    ]
+  },
+  {
+    "key": "a2ab96ec2714fefe",
+    "type": "UPDATE",
+    "category": "match_needs_fix",
+    "confidence": "high",
+    "site_slug": "the-arbors-at-bellhaven-dayton",
+    "site_name": "The Arbors at Bellhaven - Dayton",
+    "target_account_id": "0010KJFP601YNTZVDA",
+    "target_name": "Arbors at Bellhaven Dayton",
+    "evidence": [
+      "Matched website 'The Arbors at Bellhaven - Dayton' by same address",
+      "Website name 'The Arbors at Bellhaven - Dayton' differs from CRM name 'Arbors at Bellhaven Dayton'"
+    ],
+    "ops": [
+      {
+        "op": "update",
+        "account_id": "0010KJFP601YNTZVDA",
+        "body": {
+          "name": "The Arbors at Bellhaven - Dayton"
+        }
+      }
+    ],
+    "diff": [
+      {
+        "account_id": "0010KJFP601YNTZVDA",
+        "field": "name",
+        "from": "Arbors at Bellhaven Dayton",
+        "to": "The Arbors at Bellhaven - Dayton"
+      }
+    ]
+  },
+  {
+    "key": "b4821f70f6ea0abc",
+    "type": "UPDATE",
+    "category": "match_needs_fix",
+    "confidence": "high",
+    "site_slug": "bellhaven-healthcare-centre-of-ashland",
+    "site_name": "Bellhaven Healthcare Centre of Ashland",
+    "target_account_id": "001RJ0D7Z5MAZN5HX5",
+    "target_name": "Bellhaven Health Care Center of Ashland",
+    "evidence": [
+      "Matched website 'Bellhaven Healthcare Centre of Ashland' by same address",
+      "Website name 'Bellhaven Healthcare Centre of Ashland' differs from CRM name 'Bellhaven Health Care Center of Ashland'"
+    ],
+    "ops": [
+      {
+        "op": "update",
+        "account_id": "001RJ0D7Z5MAZN5HX5",
+        "body": {
+          "name": "Bellhaven Healthcare Centre of Ashland"
+        }
+      }
+    ],
+    "diff": [
+      {
+        "account_id": "001RJ0D7Z5MAZN5HX5",
+        "field": "name",
+        "from": "Bellhaven Health Care Center of Ashland",
+        "to": "Bellhaven Healthcare Centre of Ashland"
+      }
+    ]
+  },
+  {
+    "key": "244001722021af83",
+    "type": "DUPLICATE",
+    "category": "duplicate",
+    "confidence": "high",
+    "site_slug": "bellhaven-of-port-clinton",
+    "site_name": "Bellhaven of Port Clinton",
+    "target_account_id": "001JD2MWRA74LTSN24",
+    "target_name": "Harborview Nursing & Rehab of Port Clinton",
+    "evidence": [
+      "Same address as 001UELXDAKFRKB8932 (Bellhaven of Port Clinton): 1420 Harbor Point Dr, Port Clinton 43452",
+      "Survivor chosen: parent=Bellhaven Senior Living (Parent Account), name/phone closest to website; this copy parent=Harborview Care Group (Parent Account)"
+    ],
+    "ops": [
+      {
+        "op": "update",
+        "account_id": "001JD2MWRA74LTSN24",
+        "body": {
+          "duplicate_of_account": "001UELXDAKFRKB8932",
+          "status": "Inactive",
+          "note": "Duplicate of 001UELXDAKFRKB8932 (Bellhaven of Port Clinton): same address on Bellhaven website."
+        }
+      }
+    ],
+    "diff": [
+      {
+        "account_id": "001JD2MWRA74LTSN24",
+        "field": "duplicate_of_account",
+        "from": "",
+        "to": "001UELXDAKFRKB8932"
+      },
+      {
+        "account_id": "001JD2MWRA74LTSN24",
+        "field": "status",
+        "from": "Active",
+        "to": "Inactive"
+      },
+      {
+        "account_id": "001JD2MWRA74LTSN24",
+        "field": "note",
+        "from": "",
+        "to": "Duplicate of 001UELXDAKFRKB8932 (Bellhaven of Port Clinton): same address on Bellhaven website."
+      }
+    ]
+  },
+  {
+    "key": "839e0b9cb89b37d6",
+    "type": "DUPLICATE",
+    "category": "duplicate",
+    "confidence": "high",
+    "site_slug": "bellhaven-shores-of-erie",
+    "site_name": "Bellhaven Shores of Erie",
+    "target_account_id": "001BLYF02K97SZLZHH",
+    "target_name": "Harborview Shores of Erie",
+    "evidence": [
+      "Same address as 001CVBBCSDM7YHN220 (Bellhaven Shores of Erie): 4930 W Lake Rd, Erie 16505",
+      "Survivor chosen: parent=Bellhaven Senior Living (Parent Account), name/phone closest to website; this copy parent=Harborview Care Group (Parent Account)"
+    ],
+    "ops": [
+      {
+        "op": "update",
+        "account_id": "001BLYF02K97SZLZHH",
+        "body": {
+          "duplicate_of_account": "001CVBBCSDM7YHN220",
+          "status": "Inactive",
+          "note": "Duplicate of 001CVBBCSDM7YHN220 (Bellhaven Shores of Erie): same address on Bellhaven website."
+        }
+      }
+    ],
+    "diff": [
+      {
+        "account_id": "001BLYF02K97SZLZHH",
+        "field": "duplicate_of_account",
+        "from": "",
+        "to": "001CVBBCSDM7YHN220"
+      },
+      {
+        "account_id": "001BLYF02K97SZLZHH",
+        "field": "status",
+        "from": "Active",
+        "to": "Inactive"
+      },
+      {
+        "account_id": "001BLYF02K97SZLZHH",
+        "field": "note",
+        "from": "",
+        "to": "Duplicate of 001CVBBCSDM7YHN220 (Bellhaven Shores of Erie): same address on Bellhaven website."
+      }
+    ]
+  },
+  {
+    "key": "98993ca43812cde4",
+    "type": "UPDATE",
+    "category": "wrong_parent",
+    "confidence": "high",
+    "site_slug": "bellhaven-of-kettering",
+    "site_name": "Bellhaven of Kettering",
+    "target_account_id": "0016KTS1UAWBRXS09J",
+    "target_name": "Kettering Nursing & Rehabilitation",
+    "evidence": [
+      "Matched website 'Bellhaven of Kettering' by same address",
+      "Website name 'Bellhaven of Kettering' differs from CRM name 'Kettering Nursing & Rehabilitation'",
+      "Website lists this under Bellhaven; no parent in CRM"
+    ],
+    "ops": [
+      {
+        "op": "update",
+        "account_id": "0016KTS1UAWBRXS09J",
+        "body": {
+          "name": "Bellhaven of Kettering",
+          "parent_id": "0015QAPLGS3FVYEEEM"
+        }
+      }
+    ],
+    "diff": [
+      {
+        "account_id": "0016KTS1UAWBRXS09J",
+        "field": "name",
+        "from": "Kettering Nursing & Rehabilitation",
+        "to": "Bellhaven of Kettering"
+      },
+      {
+        "account_id": "0016KTS1UAWBRXS09J",
+        "field": "parent_id",
+        "from": "",
+        "to": "0015QAPLGS3FVYEEEM"
+      }
+    ]
+  },
+  {
+    "key": "1f822082a3906167",
+    "type": "DUPLICATE",
+    "category": "duplicate",
+    "confidence": "high",
+    "site_slug": "bellhaven-of-kettering",
+    "site_name": "Bellhaven of Kettering",
+    "target_account_id": "001WR41PYNWXCAE2X4",
+    "target_name": "Kettering Care Centre",
+    "evidence": [
+      "Same address as 0016KTS1UAWBRXS09J (Kettering Nursing & Rehabilitation): 3313 Wilmington Pike, Kettering 45429",
+      "Survivor chosen: parent=none, name/phone closest to website; this copy parent=Harborview Care Group (Parent Account)"
+    ],
+    "ops": [
+      {
+        "op": "update",
+        "account_id": "001WR41PYNWXCAE2X4",
+        "body": {
+          "duplicate_of_account": "0016KTS1UAWBRXS09J",
+          "status": "Inactive",
+          "note": "Duplicate of 0016KTS1UAWBRXS09J (Kettering Nursing & Rehabilitation): same address on Bellhaven website."
+        }
+      }
+    ],
+    "diff": [
+      {
+        "account_id": "001WR41PYNWXCAE2X4",
+        "field": "duplicate_of_account",
+        "from": "",
+        "to": "0016KTS1UAWBRXS09J"
+      },
+      {
+        "account_id": "001WR41PYNWXCAE2X4",
+        "field": "status",
+        "from": "Active",
+        "to": "Inactive"
+      },
+      {
+        "account_id": "001WR41PYNWXCAE2X4",
+        "field": "note",
+        "from": "",
+        "to": "Duplicate of 0016KTS1UAWBRXS09J (Kettering Nursing & Rehabilitation): same address on Bellhaven website."
+      }
+    ]
+  },
+  {
+    "key": "19df3e8de6a52610",
+    "type": "DUPLICATE",
+    "category": "duplicate",
+    "confidence": "high",
+    "site_slug": "bellhaven-of-kettering",
+    "site_name": "Bellhaven of Kettering",
+    "target_account_id": "001B7XZAA3AFALS9GP",
+    "target_name": "Kettering Senior Campus",
+    "evidence": [
+      "Same address as 0016KTS1UAWBRXS09J (Kettering Nursing & Rehabilitation): 3313 Wilmington Pike, Kettering 45429",
+      "Survivor chosen: parent=none, name/phone closest to website; this copy parent=Cedar Trail Communities (Parent Account)"
+    ],
+    "ops": [
+      {
+        "op": "update",
+        "account_id": "001B7XZAA3AFALS9GP",
+        "body": {
+          "duplicate_of_account": "0016KTS1UAWBRXS09J",
+          "status": "Inactive",
+          "note": "Duplicate of 0016KTS1UAWBRXS09J (Kettering Nursing & Rehabilitation): same address on Bellhaven website."
+        }
+      }
+    ],
+    "diff": [
+      {
+        "account_id": "001B7XZAA3AFALS9GP",
+        "field": "duplicate_of_account",
+        "from": "",
+        "to": "0016KTS1UAWBRXS09J"
+      },
+      {
+        "account_id": "001B7XZAA3AFALS9GP",
+        "field": "status",
+        "from": "Active",
+        "to": "Inactive"
+      },
+      {
+        "account_id": "001B7XZAA3AFALS9GP",
+        "field": "note",
+        "from": "",
+        "to": "Duplicate of 0016KTS1UAWBRXS09J (Kettering Nursing & Rehabilitation): same address on Bellhaven website."
+      }
+    ]
+  },
+  {
+    "key": "d89f9ea4769b5d92",
+    "type": "DUPLICATE",
+    "category": "duplicate",
+    "confidence": "high",
+    "site_slug": "bellhaven-gardens-of-monroe",
+    "site_name": "Bellhaven Gardens of Monroe",
+    "target_account_id": "0011AB44D05WLA9HTX",
+    "target_name": "Cedar Trail of Monroe",
+    "evidence": [
+      "Same address as 001U1750VLVJAGG1S5 (Bellhaven Gardens of Monroe): 750 Stewart Rd, Monroe 48162",
+      "Survivor chosen: parent=Bellhaven Senior Living (Parent Account), name/phone closest to website; this copy parent=Cedar Trail Communities (Parent Account)"
+    ],
+    "ops": [
+      {
+        "op": "update",
+        "account_id": "0011AB44D05WLA9HTX",
+        "body": {
+          "duplicate_of_account": "001U1750VLVJAGG1S5",
+          "status": "Inactive",
+          "note": "Duplicate of 001U1750VLVJAGG1S5 (Bellhaven Gardens of Monroe): same address on Bellhaven website."
+        }
+      }
+    ],
+    "diff": [
+      {
+        "account_id": "0011AB44D05WLA9HTX",
+        "field": "duplicate_of_account",
+        "from": "",
+        "to": "001U1750VLVJAGG1S5"
+      },
+      {
+        "account_id": "0011AB44D05WLA9HTX",
+        "field": "status",
+        "from": "Active",
+        "to": "Inactive"
+      },
+      {
+        "account_id": "0011AB44D05WLA9HTX",
+        "field": "note",
+        "from": "",
+        "to": "Duplicate of 001U1750VLVJAGG1S5 (Bellhaven Gardens of Monroe): same address on Bellhaven website."
+      }
+    ]
+  },
+  {
+    "key": "53014465ccbff698",
+    "type": "DUPLICATE",
+    "category": "duplicate",
+    "confidence": "high",
+    "site_slug": "bellhaven-gardens-of-monroe",
+    "site_name": "Bellhaven Gardens of Monroe",
+    "target_account_id": "00159PL81N38KM4FHM",
+    "target_name": "Monroe Gardens Care Center",
+    "evidence": [
+      "Same address as 001U1750VLVJAGG1S5 (Bellhaven Gardens of Monroe): 750 Stewart Rd, Monroe 48162",
+      "Survivor chosen: parent=Bellhaven Senior Living (Parent Account), name/phone closest to website; this copy parent=Harborview Care Group (Parent Account)"
+    ],
+    "ops": [
+      {
+        "op": "update",
+        "account_id": "00159PL81N38KM4FHM",
+        "body": {
+          "duplicate_of_account": "001U1750VLVJAGG1S5",
+          "status": "Inactive",
+          "note": "Duplicate of 001U1750VLVJAGG1S5 (Bellhaven Gardens of Monroe): same address on Bellhaven website."
+        }
+      }
+    ],
+    "diff": [
+      {
+        "account_id": "00159PL81N38KM4FHM",
+        "field": "duplicate_of_account",
+        "from": "",
+        "to": "001U1750VLVJAGG1S5"
+      },
+      {
+        "account_id": "00159PL81N38KM4FHM",
+        "field": "status",
+        "from": "Active",
+        "to": "Inactive"
+      },
+      {
+        "account_id": "00159PL81N38KM4FHM",
+        "field": "note",
+        "from": "",
+        "to": "Duplicate of 001U1750VLVJAGG1S5 (Bellhaven Gardens of Monroe): same address on Bellhaven website."
+      }
+    ]
+  },
+  {
+    "key": "87ad0578605d42b8",
+    "type": "CHOW",
+    "category": "wrong_parent_billing_history",
+    "confidence": "high",
+    "site_slug": "bellhaven-of-tiffin",
+    "site_name": "Bellhaven of Tiffin",
+    "target_account_id": "001U6RW32TY0WSXZZB",
+    "target_name": "Bellhaven of Tiffin",
+    "evidence": [
+      "Matched website 'Bellhaven of Tiffin' by same address",
+      "Website lists this under Bellhaven but CRM parent is Cedar Trail Communities (Parent Account)",
+      "SOP: lifetime_revenue=84000 and outstanding_ar=12400 (both > 0), so the old account is preserved unchanged; new account created, CHOW pointer set on the old one"
+    ],
+    "ops": [
+      {
+        "op": "create",
+        "ref": "new_account",
+        "body": {
+          "name": "Bellhaven of Tiffin",
+          "parent_id": "0015QAPLGS3FVYEEEM",
+          "billing_street": "45 St Lawrence Dr",
+          "billing_city": "Tiffin",
+          "billing_state": "OH",
+          "billing_zip": "44883",
+          "care_type": "Skilled Nursing",
+          "phone": "(260) 589-2589",
+          "status": "Active",
+          "note": "Created by Bellhaven website sync from https://analyst-assessment-production.up.railway.app/communities/bellhaven-of-tiffin"
+        }
+      },
+      {
+        "op": "update",
+        "account_id": "001U6RW32TY0WSXZZB",
+        "body": {
+          "chow_current_account": "{new_account}"
+        }
+      }
+    ],
+    "diff": [
+      {
+        "account_id": "(new)",
+        "field": "name",
+        "from": null,
+        "to": "Bellhaven of Tiffin"
+      },
+      {
+        "account_id": "(new)",
+        "field": "parent_id",
+        "from": null,
+        "to": "0015QAPLGS3FVYEEEM"
+      },
+      {
+        "account_id": "(new)",
+        "field": "billing_street",
+        "from": null,
+        "to": "45 St Lawrence Dr"
+      },
+      {
+        "account_id": "(new)",
+        "field": "billing_city",
+        "from": null,
+        "to": "Tiffin"
+      },
+      {
+        "account_id": "(new)",
+        "field": "billing_state",
+        "from": null,
+        "to": "OH"
+      },
+      {
+        "account_id": "(new)",
+        "field": "billing_zip",
+        "from": null,
+        "to": "44883"
+      },
+      {
+        "account_id": "(new)",
+        "field": "care_type",
+        "from": null,
+        "to": "Skilled Nursing"
+      },
+      {
+        "account_id": "(new)",
+        "field": "phone",
+        "from": null,
+        "to": "(260) 589-2589"
+      },
+      {
+        "account_id": "(new)",
+        "field": "status",
+        "from": null,
+        "to": "Active"
+      },
+      {
+        "account_id": "(new)",
+        "field": "note",
+        "from": null,
+        "to": "Created by Bellhaven website sync from https://analyst-assessment-production.up.railway.app/communities/bellhaven-of-tiffin"
+      },
+      {
+        "account_id": "001U6RW32TY0WSXZZB",
+        "field": "chow_current_account",
+        "from": "",
+        "to": "{new_account}"
+      }
+    ]
+  },
+  {
+    "key": "4b75b76bf51dbca4",
+    "type": "CHOW",
+    "category": "wrong_parent_billing_history",
+    "confidence": "high",
+    "site_slug": "bellhaven-of-marietta",
+    "site_name": "Bellhaven of Marietta",
+    "target_account_id": "001A34WFSUYHCRBLFT",
+    "target_name": "Bellhaven of Marietta",
+    "evidence": [
+      "Matched website 'Bellhaven of Marietta' by same address",
+      "Website lists this under Bellhaven but CRM parent is Cedar Trail Communities (Parent Account)",
+      "SOP: lifetime_revenue=51250 and outstanding_ar=3800 (both > 0), so the old account is preserved unchanged; new account created, CHOW pointer set on the old one"
+    ],
+    "ops": [
+      {
+        "op": "create",
+        "ref": "new_account",
+        "body": {
+          "name": "Bellhaven of Marietta",
+          "parent_id": "0015QAPLGS3FVYEEEM",
+          "billing_street": "805 Colegate Dr",
+          "billing_city": "Marietta",
+          "billing_state": "OH",
+          "billing_zip": "45750",
+          "care_type": "Skilled Nursing",
+          "phone": "(614) 337-1967",
+          "status": "Active",
+          "note": "Created by Bellhaven website sync from https://analyst-assessment-production.up.railway.app/communities/bellhaven-of-marietta"
+        }
+      },
+      {
+        "op": "update",
+        "account_id": "001A34WFSUYHCRBLFT",
+        "body": {
+          "chow_current_account": "{new_account}"
+        }
+      }
+    ],
+    "diff": [
+      {
+        "account_id": "(new)",
+        "field": "name",
+        "from": null,
+        "to": "Bellhaven of Marietta"
+      },
+      {
+        "account_id": "(new)",
+        "field": "parent_id",
+        "from": null,
+        "to": "0015QAPLGS3FVYEEEM"
+      },
+      {
+        "account_id": "(new)",
+        "field": "billing_street",
+        "from": null,
+        "to": "805 Colegate Dr"
+      },
+      {
+        "account_id": "(new)",
+        "field": "billing_city",
+        "from": null,
+        "to": "Marietta"
+      },
+      {
+        "account_id": "(new)",
+        "field": "billing_state",
+        "from": null,
+        "to": "OH"
+      },
+      {
+        "account_id": "(new)",
+        "field": "billing_zip",
+        "from": null,
+        "to": "45750"
+      },
+      {
+        "account_id": "(new)",
+        "field": "care_type",
+        "from": null,
+        "to": "Skilled Nursing"
+      },
+      {
+        "account_id": "(new)",
+        "field": "phone",
+        "from": null,
+        "to": "(614) 337-1967"
+      },
+      {
+        "account_id": "(new)",
+        "field": "status",
+        "from": null,
+        "to": "Active"
+      },
+      {
+        "account_id": "(new)",
+        "field": "note",
+        "from": null,
+        "to": "Created by Bellhaven website sync from https://analyst-assessment-production.up.railway.app/communities/bellhaven-of-marietta"
+      },
+      {
+        "account_id": "001A34WFSUYHCRBLFT",
+        "field": "chow_current_account",
+        "from": "",
+        "to": "{new_account}"
+      }
+    ]
+  },
+  {
+    "key": "35b8fe3cd0f5478a",
+    "type": "UPDATE",
+    "category": "wrong_parent",
+    "confidence": "high",
+    "site_slug": "bellhaven-crossings-of-lima",
+    "site_name": "Bellhaven Crossings of Lima",
+    "target_account_id": "001LGFPBJY4N9MB6KL",
+    "target_name": "Bellhaven Crossings of Lima",
+    "evidence": [
+      "Matched website 'Bellhaven Crossings of Lima' by same address",
+      "Website lists this under Bellhaven; CRM parent is Harborview Care Group (Parent Account)",
+      "SOP check: lifetime_revenue=47000, outstanding_ar=0 (not both > 0) so direct re-parent is allowed"
+    ],
+    "ops": [
+      {
+        "op": "update",
+        "account_id": "001LGFPBJY4N9MB6KL",
+        "body": {
+          "parent_id": "0015QAPLGS3FVYEEEM"
+        }
+      }
+    ],
+    "diff": [
+      {
+        "account_id": "001LGFPBJY4N9MB6KL",
+        "field": "parent_id",
+        "from": "001FJZYHR7MLFMNPLL",
+        "to": "0015QAPLGS3FVYEEEM"
+      }
+    ]
+  },
+  {
+    "key": "9655b090087ae9e7",
+    "type": "UPDATE",
+    "category": "wrong_parent",
+    "confidence": "high",
+    "site_slug": "bellhaven-of-zanesville",
+    "site_name": "Bellhaven of Zanesville",
+    "target_account_id": "001H1JMVZWP46D5VUF",
+    "target_name": "Cedar Trail of Zanesville",
+    "evidence": [
+      "Matched website 'Bellhaven of Zanesville' by same address",
+      "Website name 'Bellhaven of Zanesville' differs from CRM name 'Cedar Trail of Zanesville'",
+      "Website lists this under Bellhaven; CRM parent is Cedar Trail Communities (Parent Account)",
+      "SOP check: lifetime_revenue=0, outstanding_ar=0 (not both > 0) so direct re-parent is allowed"
+    ],
+    "ops": [
+      {
+        "op": "update",
+        "account_id": "001H1JMVZWP46D5VUF",
+        "body": {
+          "name": "Bellhaven of Zanesville",
+          "parent_id": "0015QAPLGS3FVYEEEM"
+        }
+      }
+    ],
+    "diff": [
+      {
+        "account_id": "001H1JMVZWP46D5VUF",
+        "field": "name",
+        "from": "Cedar Trail of Zanesville",
+        "to": "Bellhaven of Zanesville"
+      },
+      {
+        "account_id": "001H1JMVZWP46D5VUF",
+        "field": "parent_id",
+        "from": "001FWSQ30SFW6S7604",
+        "to": "0015QAPLGS3FVYEEEM"
+      }
+    ]
+  },
+  {
+    "key": "81baa3a5987e08cd",
+    "type": "UPDATE",
+    "category": "match_needs_fix",
+    "confidence": "high",
+    "site_slug": "bellhaven-of-chagrin-falls",
+    "site_name": "Bellhaven of Chagrin Falls",
+    "target_account_id": "001RJU1X4NBWC1Q0G7",
+    "target_name": "Riverbend Manor Care Center",
+    "evidence": [
+      "Matched website 'Bellhaven of Chagrin Falls' by same address",
+      "Website name 'Bellhaven of Chagrin Falls' differs from CRM name 'Riverbend Manor Care Center'"
+    ],
+    "ops": [
+      {
+        "op": "update",
+        "account_id": "001RJU1X4NBWC1Q0G7",
+        "body": {
+          "name": "Bellhaven of Chagrin Falls"
+        }
+      }
+    ],
+    "diff": [
+      {
+        "account_id": "001RJU1X4NBWC1Q0G7",
+        "field": "name",
+        "from": "Riverbend Manor Care Center",
+        "to": "Bellhaven of Chagrin Falls"
+      }
+    ]
+  },
+  {
+    "key": "3fa92edb50ebbc8c",
+    "type": "UPDATE",
+    "category": "match_needs_fix",
+    "confidence": "high",
+    "site_slug": "bellhaven-willow-creek",
+    "site_name": "Bellhaven Willow Creek",
+    "target_account_id": "0017MN2JYAJBDS8WQZ",
+    "target_name": "Sunny Acres Retirement Home",
+    "evidence": [
+      "Matched website 'Bellhaven Willow Creek' by same address",
+      "Website name 'Bellhaven Willow Creek' differs from CRM name 'Sunny Acres Retirement Home'"
+    ],
+    "ops": [
+      {
+        "op": "update",
+        "account_id": "0017MN2JYAJBDS8WQZ",
+        "body": {
+          "name": "Bellhaven Willow Creek"
+        }
+      }
+    ],
+    "diff": [
+      {
+        "account_id": "0017MN2JYAJBDS8WQZ",
+        "field": "name",
+        "from": "Sunny Acres Retirement Home",
+        "to": "Bellhaven Willow Creek"
+      }
+    ]
+  },
+  {
+    "key": "86d28c76a07a6020",
+    "type": "UPDATE",
+    "category": "match_needs_fix",
+    "confidence": "high",
+    "site_slug": "bellhaven-of-ashtabula",
+    "site_name": "Bellhaven of Ashtabula",
+    "target_account_id": "001NXP9X46CWEPSLSV",
+    "target_name": "Bellhaven of Ashtabula",
+    "evidence": [
+      "Matched website 'Bellhaven of Ashtabula' by same city + phone/name",
+      "Street differs: CRM 'PO Box 517' vs website '3156 W Prospect Rd'"
+    ],
+    "ops": [
+      {
+        "op": "update",
+        "account_id": "001NXP9X46CWEPSLSV",
+        "body": {
+          "billing_street": "3156 W Prospect Rd"
+        }
+      }
+    ],
+    "diff": [
+      {
+        "account_id": "001NXP9X46CWEPSLSV",
+        "field": "billing_street",
+        "from": "PO Box 517",
+        "to": "3156 W Prospect Rd"
+      }
+    ]
+  },
+  {
+    "key": "6844d534cd7154e2",
+    "type": "DUPLICATE",
+    "category": "duplicate",
+    "confidence": "high",
+    "site_slug": "bellhaven-of-owosso",
+    "site_name": "Bellhaven of Owosso",
+    "target_account_id": "001QU150PM4Z15UA71",
+    "target_name": "Bellhaven of Owosso",
+    "evidence": [
+      "Same address as 001EGU7BMJ942ZTRE6 (Bellhaven of Owosso): 1120 W Main St, Owosso 48867",
+      "Survivor chosen: parent=Bellhaven Senior Living (Parent Account), name/phone closest to website; this copy parent=Bellhaven Senior Living (Parent Account)"
+    ],
+    "ops": [
+      {
+        "op": "update",
+        "account_id": "001QU150PM4Z15UA71",
+        "body": {
+          "duplicate_of_account": "001EGU7BMJ942ZTRE6",
+          "status": "Inactive",
+          "note": "Duplicate of 001EGU7BMJ942ZTRE6 (Bellhaven of Owosso): same address on Bellhaven website."
+        }
+      }
+    ],
+    "diff": [
+      {
+        "account_id": "001QU150PM4Z15UA71",
+        "field": "duplicate_of_account",
+        "from": "",
+        "to": "001EGU7BMJ942ZTRE6"
+      },
+      {
+        "account_id": "001QU150PM4Z15UA71",
+        "field": "status",
+        "from": "Active",
+        "to": "Inactive"
+      },
+      {
+        "account_id": "001QU150PM4Z15UA71",
+        "field": "note",
+        "from": "",
+        "to": "Duplicate of 001EGU7BMJ942ZTRE6 (Bellhaven of Owosso): same address on Bellhaven website."
+      }
+    ]
+  },
+  {
+    "key": "2159ad4b27c541a2",
+    "type": "UPDATE",
+    "category": "match_needs_fix",
+    "confidence": "high",
+    "site_slug": "bellhaven-of-portsmouth",
+    "site_name": "Bellhaven of Portsmouth",
+    "target_account_id": "001CF3LDWVRGL09P4F",
+    "target_name": "Bellhaven of Portsmouth",
+    "evidence": [
+      "Matched website 'Bellhaven of Portsmouth' by same address",
+      "Zip differs: CRM '45626' vs website '45662'"
+    ],
+    "ops": [
+      {
+        "op": "update",
+        "account_id": "001CF3LDWVRGL09P4F",
+        "body": {
+          "billing_zip": "45662"
+        }
+      }
+    ],
+    "diff": [
+      {
+        "account_id": "001CF3LDWVRGL09P4F",
+        "field": "billing_zip",
+        "from": "45626",
+        "to": "45662"
+      }
+    ]
+  },
+  {
+    "key": "e208542e34172609",
+    "type": "CREATE",
+    "category": "new_location",
+    "confidence": "high",
+    "site_slug": "bellhaven-of-batavia",
+    "site_name": "Bellhaven of Batavia",
+    "target_account_id": null,
+    "target_name": null,
+    "evidence": [
+      "No CRM account found at 2000 Hospital Dr, Batavia, OH 45103",
+      "No same-city account matched on phone or name either"
+    ],
+    "ops": [
+      {
+        "op": "create",
+        "ref": "new_account",
+        "body": {
+          "name": "Bellhaven of Batavia",
+          "parent_id": "0015QAPLGS3FVYEEEM",
+          "billing_street": "2000 Hospital Dr",
+          "billing_city": "Batavia",
+          "billing_state": "OH",
+          "billing_zip": "45103",
+          "care_type": "Skilled Nursing",
+          "phone": "(231) 698-3092",
+          "status": "Active",
+          "note": "Created by Bellhaven website sync from https://analyst-assessment-production.up.railway.app/communities/bellhaven-of-batavia"
+        }
+      }
+    ],
+    "diff": [
+      {
+        "account_id": "(new)",
+        "field": "name",
+        "from": null,
+        "to": "Bellhaven of Batavia"
+      },
+      {
+        "account_id": "(new)",
+        "field": "parent_id",
+        "from": null,
+        "to": "0015QAPLGS3FVYEEEM"
+      },
+      {
+        "account_id": "(new)",
+        "field": "billing_street",
+        "from": null,
+        "to": "2000 Hospital Dr"
+      },
+      {
+        "account_id": "(new)",
+        "field": "billing_city",
+        "from": null,
+        "to": "Batavia"
+      },
+      {
+        "account_id": "(new)",
+        "field": "billing_state",
+        "from": null,
+        "to": "OH"
+      },
+      {
+        "account_id": "(new)",
+        "field": "billing_zip",
+        "from": null,
+        "to": "45103"
+      },
+      {
+        "account_id": "(new)",
+        "field": "care_type",
+        "from": null,
+        "to": "Skilled Nursing"
+      },
+      {
+        "account_id": "(new)",
+        "field": "phone",
+        "from": null,
+        "to": "(231) 698-3092"
+      },
+      {
+        "account_id": "(new)",
+        "field": "status",
+        "from": null,
+        "to": "Active"
+      },
+      {
+        "account_id": "(new)",
+        "field": "note",
+        "from": null,
+        "to": "Created by Bellhaven website sync from https://analyst-assessment-production.up.railway.app/communities/bellhaven-of-batavia"
+      }
+    ]
+  },
+  {
+    "key": "1a700d1e735720a8",
+    "type": "UPDATE",
+    "category": "wrong_parent",
+    "confidence": "medium",
+    "site_slug": "bellhaven-at-union-square",
+    "site_name": "Bellhaven at Union Square",
+    "target_account_id": "001GNU41AVXZRLLJ9P",
+    "target_name": "Union Square Senior Living",
+    "evidence": [
+      "Matched website 'Bellhaven at Union Square' by same city + phone/name",
+      "Website name 'Bellhaven at Union Square' differs from CRM name 'Union Square Senior Living'",
+      "Street differs: CRM '240 Market St' vs website '118 Union Square Dr'",
+      "Website lists this under Bellhaven; CRM parent is Juniper Point Healthcare (Parent Account)",
+      "SOP check: lifetime_revenue=0, outstanding_ar=0 (not both > 0) so direct re-parent is allowed"
+    ],
+    "ops": [
+      {
+        "op": "update",
+        "account_id": "001GNU41AVXZRLLJ9P",
+        "body": {
+          "name": "Bellhaven at Union Square",
+          "billing_street": "118 Union Square Dr",
+          "parent_id": "0015QAPLGS3FVYEEEM"
+        }
+      }
+    ],
+    "diff": [
+      {
+        "account_id": "001GNU41AVXZRLLJ9P",
+        "field": "name",
+        "from": "Union Square Senior Living",
+        "to": "Bellhaven at Union Square"
+      },
+      {
+        "account_id": "001GNU41AVXZRLLJ9P",
+        "field": "billing_street",
+        "from": "240 Market St",
+        "to": "118 Union Square Dr"
+      },
+      {
+        "account_id": "001GNU41AVXZRLLJ9P",
+        "field": "parent_id",
+        "from": "001DAAUWV2J3SHQJ34",
+        "to": "0015QAPLGS3FVYEEEM"
+      }
+    ]
+  },
+  {
+    "key": "70613c4f2806f5db",
+    "type": "CREATE",
+    "category": "new_location",
+    "confidence": "high",
+    "site_slug": "bellhaven-of-carlisle",
+    "site_name": "Bellhaven of Carlisle",
+    "target_account_id": null,
+    "target_name": null,
+    "evidence": [
+      "No CRM account found at 640 Walnut Bottom Rd, Carlisle, PA 17015",
+      "No same-city account matched on phone or name either"
+    ],
+    "ops": [
+      {
+        "op": "create",
+        "ref": "new_account",
+        "body": {
+          "name": "Bellhaven of Carlisle",
+          "parent_id": "0015QAPLGS3FVYEEEM",
+          "billing_street": "640 Walnut Bottom Rd",
+          "billing_city": "Carlisle",
+          "billing_state": "PA",
+          "billing_zip": "17015",
+          "care_type": "Skilled Nursing",
+          "phone": "(260) 386-7765",
+          "status": "Active",
+          "note": "Created by Bellhaven website sync from https://analyst-assessment-production.up.railway.app/communities/bellhaven-of-carlisle"
+        }
+      }
+    ],
+    "diff": [
+      {
+        "account_id": "(new)",
+        "field": "name",
+        "from": null,
+        "to": "Bellhaven of Carlisle"
+      },
+      {
+        "account_id": "(new)",
+        "field": "parent_id",
+        "from": null,
+        "to": "0015QAPLGS3FVYEEEM"
+      },
+      {
+        "account_id": "(new)",
+        "field": "billing_street",
+        "from": null,
+        "to": "640 Walnut Bottom Rd"
+      },
+      {
+        "account_id": "(new)",
+        "field": "billing_city",
+        "from": null,
+        "to": "Carlisle"
+      },
+      {
+        "account_id": "(new)",
+        "field": "billing_state",
+        "from": null,
+        "to": "PA"
+      },
+      {
+        "account_id": "(new)",
+        "field": "billing_zip",
+        "from": null,
+        "to": "17015"
+      },
+      {
+        "account_id": "(new)",
+        "field": "care_type",
+        "from": null,
+        "to": "Skilled Nursing"
+      },
+      {
+        "account_id": "(new)",
+        "field": "phone",
+        "from": null,
+        "to": "(260) 386-7765"
+      },
+      {
+        "account_id": "(new)",
+        "field": "status",
+        "from": null,
+        "to": "Active"
+      },
+      {
+        "account_id": "(new)",
+        "field": "note",
+        "from": null,
+        "to": "Created by Bellhaven website sync from https://analyst-assessment-production.up.railway.app/communities/bellhaven-of-carlisle"
+      }
+    ]
+  },
+  {
+    "key": "5b535932fc9872d3",
+    "type": "CREATE",
+    "category": "new_location",
+    "confidence": "high",
+    "site_slug": "amberly-manor",
+    "site_name": "Amberly Manor",
+    "target_account_id": null,
+    "target_name": null,
+    "evidence": [
+      "No CRM account found at 4390 Darrow Rd, Hudson, OH 44236",
+      "No same-city account matched on phone or name either"
+    ],
+    "ops": [
+      {
+        "op": "create",
+        "ref": "new_account",
+        "body": {
+          "name": "Amberly Manor",
+          "parent_id": "0015QAPLGS3FVYEEEM",
+          "billing_street": "4390 Darrow Rd",
+          "billing_city": "Hudson",
+          "billing_state": "OH",
+          "billing_zip": "44236",
+          "care_type": "Assisted Living",
+          "phone": "(330) 228-4392",
+          "status": "Active",
+          "note": "Created by Bellhaven website sync from https://analyst-assessment-production.up.railway.app/communities/amberly-manor"
+        }
+      }
+    ],
+    "diff": [
+      {
+        "account_id": "(new)",
+        "field": "name",
+        "from": null,
+        "to": "Amberly Manor"
+      },
+      {
+        "account_id": "(new)",
+        "field": "parent_id",
+        "from": null,
+        "to": "0015QAPLGS3FVYEEEM"
+      },
+      {
+        "account_id": "(new)",
+        "field": "billing_street",
+        "from": null,
+        "to": "4390 Darrow Rd"
+      },
+      {
+        "account_id": "(new)",
+        "field": "billing_city",
+        "from": null,
+        "to": "Hudson"
+      },
+      {
+        "account_id": "(new)",
+        "field": "billing_state",
+        "from": null,
+        "to": "OH"
+      },
+      {
+        "account_id": "(new)",
+        "field": "billing_zip",
+        "from": null,
+        "to": "44236"
+      },
+      {
+        "account_id": "(new)",
+        "field": "care_type",
+        "from": null,
+        "to": "Assisted Living"
+      },
+      {
+        "account_id": "(new)",
+        "field": "phone",
+        "from": null,
+        "to": "(330) 228-4392"
+      },
+      {
+        "account_id": "(new)",
+        "field": "status",
+        "from": null,
+        "to": "Active"
+      },
+      {
+        "account_id": "(new)",
+        "field": "note",
+        "from": null,
+        "to": "Created by Bellhaven website sync from https://analyst-assessment-production.up.railway.app/communities/amberly-manor"
+      }
+    ]
+  },
+  {
+    "key": "2a22753b8b948315",
+    "type": "UPDATE",
+    "category": "match_needs_fix",
+    "confidence": "high",
+    "site_slug": "bellhaven-of-chesterton",
+    "site_name": "Bellhaven of Chesterton",
+    "target_account_id": "0013NUZQHQUEZ8DXEG",
+    "target_name": "Chesterton Senior Commons",
+    "evidence": [
+      "Matched website 'Bellhaven of Chesterton' by same address",
+      "Website name 'Bellhaven of Chesterton' differs from CRM name 'Chesterton Senior Commons'"
+    ],
+    "ops": [
+      {
+        "op": "update",
+        "account_id": "0013NUZQHQUEZ8DXEG",
+        "body": {
+          "name": "Bellhaven of Chesterton"
+        }
+      }
+    ],
+    "diff": [
+      {
+        "account_id": "0013NUZQHQUEZ8DXEG",
+        "field": "name",
+        "from": "Chesterton Senior Commons",
+        "to": "Bellhaven of Chesterton"
+      }
+    ]
+  },
+  {
+    "key": "71a365c053639666",
+    "type": "UPDATE",
+    "category": "wrong_parent",
+    "confidence": "high",
+    "site_slug": "bellhaven-meadows-of-findlay",
+    "site_name": "Bellhaven Meadows of Findlay",
+    "target_account_id": "001UKEFGADQ8YCZ4YM",
+    "target_name": "Bellhaven Meadows of Findlay",
+    "evidence": [
+      "Matched website 'Bellhaven Meadows of Findlay' by same address",
+      "Website lists this under Bellhaven; no parent in CRM"
+    ],
+    "ops": [
+      {
+        "op": "update",
+        "account_id": "001UKEFGADQ8YCZ4YM",
+        "body": {
+          "parent_id": "0015QAPLGS3FVYEEEM"
+        }
+      }
+    ],
+    "diff": [
+      {
+        "account_id": "001UKEFGADQ8YCZ4YM",
+        "field": "parent_id",
+        "from": "",
+        "to": "0015QAPLGS3FVYEEEM"
+      }
+    ]
+  },
+  {
+    "key": "b72fe1037850eb6f",
+    "type": "STALE",
+    "category": "not_on_website",
+    "confidence": "medium",
+    "site_slug": null,
+    "site_name": null,
+    "target_account_id": "00116ETS45BL7DTQP7",
+    "target_name": "Bellhaven Care Center of Alliance",
+    "evidence": [
+      "CRM parent is Bellhaven but no website location matches 1785 Freshley Ave, Alliance 44601",
+      "Billing: lifetime_revenue=0, outstanding_ar=0"
+    ],
+    "ops": [
+      {
+        "op": "update",
+        "account_id": "00116ETS45BL7DTQP7",
+        "body": {
+          "status": "Needs Review",
+          "note": "Not listed on Bellhaven website at last sync; verify whether sold, closed or renamed. Parent left unchanged."
+        }
+      }
+    ],
+    "diff": [
+      {
+        "account_id": "00116ETS45BL7DTQP7",
+        "field": "status",
+        "from": "Active",
+        "to": "Needs Review"
+      },
+      {
+        "account_id": "00116ETS45BL7DTQP7",
+        "field": "note",
+        "from": "",
+        "to": "Not listed on Bellhaven website at last sync; verify whether sold, closed or renamed. Parent left unchanged."
+      }
+    ]
+  },
+  {
+    "key": "7372269ba2ee63e1",
+    "type": "STALE",
+    "category": "not_on_website",
+    "confidence": "medium",
+    "site_slug": null,
+    "site_name": null,
+    "target_account_id": "0016PVXH4B25HWR7QE",
+    "target_name": "Bellhaven of Coldwater",
+    "evidence": [
+      "CRM parent is Bellhaven but no website location matches 90 N Michigan Ave, Coldwater 49036",
+      "Billing: lifetime_revenue=0, outstanding_ar=0"
+    ],
+    "ops": [
+      {
+        "op": "update",
+        "account_id": "0016PVXH4B25HWR7QE",
+        "body": {
+          "status": "Needs Review",
+          "note": "Not listed on Bellhaven website at last sync; verify whether sold, closed or renamed. Parent left unchanged."
+        }
+      }
+    ],
+    "diff": [
+      {
+        "account_id": "0016PVXH4B25HWR7QE",
+        "field": "status",
+        "from": "Active",
+        "to": "Needs Review"
+      },
+      {
+        "account_id": "0016PVXH4B25HWR7QE",
+        "field": "note",
+        "from": "",
+        "to": "Not listed on Bellhaven website at last sync; verify whether sold, closed or renamed. Parent left unchanged."
+      }
+    ]
+  },
+  {
+    "key": "7c9e3dbe2b752568",
+    "type": "STALE",
+    "category": "not_on_website",
+    "confidence": "medium",
+    "site_slug": null,
+    "site_name": null,
+    "target_account_id": "001SXSF4ELF0Z2LGDM",
+    "target_name": "Bellhaven of Sandusky",
+    "evidence": [
+      "CRM parent is Bellhaven but no website location matches 2715 Columbus Ave, Sandusky 44870",
+      "Billing: lifetime_revenue=130000, outstanding_ar=5200",
+      "Has billing history: parent must NOT be changed"
+    ],
+    "ops": [
+      {
+        "op": "update",
+        "account_id": "001SXSF4ELF0Z2LGDM",
+        "body": {
+          "status": "Needs Review",
+          "note": "Not listed on Bellhaven website at last sync; verify whether sold, closed or renamed. Parent left unchanged."
+        }
+      }
+    ],
+    "diff": [
+      {
+        "account_id": "001SXSF4ELF0Z2LGDM",
+        "field": "status",
+        "from": "Active",
+        "to": "Needs Review"
+      },
+      {
+        "account_id": "001SXSF4ELF0Z2LGDM",
+        "field": "note",
+        "from": "",
+        "to": "Not listed on Bellhaven website at last sync; verify whether sold, closed or renamed. Parent left unchanged."
+      }
+    ]
+  }
+]
