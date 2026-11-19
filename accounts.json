@@ -182,8 +182,8 @@
   {
     "account_id": "001LGFPBJY4N9MB6KL",
     "name": "Bellhaven Crossings of Lima",
-    "parent_id": "001FJZYHR7MLFMNPLL",
-    "parent_name": "Harborview Care Group (Parent Account)",
+    "parent_id": "0015QAPLGS3FVYEEEM",
+    "parent_name": "Bellhaven Senior Living (Parent Account)",
     "billing_street": "3115 N Cole St",
     "billing_city": "Lima",
     "billing_state": "OH",
@@ -197,7 +197,7 @@
     "duplicate_of_account": "",
     "note": "",
     "created_by_candidate": false,
-    "updated_at": "2026-11-18 20:22:48Z"
+    "updated_at": "2026-11-19 21:24:53Z"
   },
   {
     "account_id": "001U1750VLVJAGG1S5",
