@@ -1,0 +1,56 @@
+name: Daily Bellhaven sync
+
+on:
+  schedule:
+    - cron: "17 11 * * *"   # every day at 11:17 UTC (6:17 AM US Eastern)
+  workflow_dispatch:          # also lets you run it by hand from the Actions tab
+
+# Never let two runs overlap: they would both write to the same review queue.
+concurrency:
+  group: bellhaven-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # The review queue remembers every decision (approved / rejected / applied),
+      # which is what keeps re-runs from re-proposing the same items.
+      # Runners are wiped after each run, so restore it from cache first...
+      - name: Restore review database
+        uses: actions/cache/restore@v4
+        with:
+          path: review.db
+          key: review-db-${{ github.run_id }}
+          restore-keys: review-db-
+
+      # Pull the CRM + scrape the website + queue only NEW proposals.
+      # Writes NOTHING to the CRM. If the scrape looks broken the script exits
+      # non-zero, the job fails, and GitHub emails the repo owner.
+      - name: Run pipeline
+        env:
+          BH_TOKEN: ${{ secrets.BH_TOKEN }}
+          BH_API: ${{ secrets.BH_API }}
+        run: python pipeline.py
+
+      # ...and save it again afterwards (a new key each run; restore picks the latest).
+      - name: Save review database
+        uses: actions/cache/save@v4
+        with:
+          path: review.db
+          key: review-db-${{ github.run_id }}
+
+      # Download this to review locally with: python app.py
+      - name: Upload review queue
+        uses: actions/upload-artifact@v4
+        with:
+          name: review-queue
+          path: review.db
+          retention-days: 30

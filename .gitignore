@@ -1,1 +1,5 @@
 .env
+review.db
+__pycache__/
+*.pyc
+.venv/

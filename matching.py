@@ -76,14 +76,24 @@ def find_candidates(loc, free):
     if exact:
         return exact, "same address", "high"
 
+    # Fallback: same city AND same phone number. A similar name alone is NOT enough
+    # to treat two accounts as the same facility (different street + phone = likely
+    # a different building), so name-only look-alikes never match here.
     ph, lcore = digits(loc["phone"]), core_name(loc["name"])
-    soft = [a for a in free if same_city(a)
-            and ((ph and digits(a["phone"]) == ph) or core_name(a["name"]) == lcore)]
+    soft = [a for a in free if same_city(a) and ph and digits(a["phone"]) == ph]
     if soft:
-        strong = any(digits(a["phone"]) == ph and core_name(a["name"]) == lcore
-                     for a in soft)
-        return soft, "same city + phone/name", "high" if strong else "medium"
+        strong = any(core_name(a["name"]) == lcore for a in soft)
+        return soft, "same city + phone", "high" if strong else "medium"
     return [], None, None
+
+
+def near_misses(loc, free):
+    """Same-city accounts with a look-alike name. Shown as evidence, never matched."""
+    lcore = core_name(loc["name"])
+    return [a for a in free
+            if a["billing_city"].strip().lower() == loc["city"].lower()
+            and a["billing_state"].strip().upper() == loc["state"].upper()
+            and core_name(a["name"]) == lcore]
 
 
 def pick_survivor(cands, loc, parent_id):
@@ -206,7 +216,9 @@ def build_proposals(accounts, site):
     by_id = {a["account_id"]: a for a in accounts}
     parent = next(a for a in accounts if a["name"] == PARENT_NAME)
     P = parent["account_id"]
-    pool = [a for a in accounts if "(Parent Account)" not in a["name"]]
+    # Accounts already superseded by a CHOW are preserved billing records: leave them alone.
+    pool = [a for a in accounts
+            if "(Parent Account)" not in a["name"] and not a.get("chow_current_account")]
     claimed, proposals, clean = set(), [], []
 
     for loc in site:
@@ -216,8 +228,15 @@ def build_proposals(accounts, site):
         if not cands:
             ops = [{"op": "create", "ref": "new_account", "body": new_account_body(loc, P)}]
             ev = [f"No CRM account found at {loc['street']}, {loc['city']}, {loc['state']} {loc['zip']}",
-                  "No same-city account matched on phone or name either"]
-            proposals.append(make("CREATE", "new_location", "high", loc, None, ops, ev, by_id))
+                  "No same-city account has the same phone number either"]
+            cconf = "high"
+            for nm in near_misses(loc, free):
+                cconf = "medium"
+                ev.append(f"Look-alike NOT matched: '{nm['name']}' ({nm['account_id']}, parent "
+                          f"{nm['parent_name'] or 'none'}) at {nm['billing_street']}, {nm['billing_city']}: "
+                          "different street and phone, so treated as a separate facility and left untouched. "
+                          "Reviewer: reject if this is really the same building.")
+            proposals.append(make("CREATE", "new_location", cconf, loc, None, ops, ev, by_id))
             continue
 
         survivor = pick_survivor(cands, loc, P)
